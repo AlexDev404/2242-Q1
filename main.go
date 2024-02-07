@@ -8,5 +8,11 @@ type triangle struct {
 	height float64
 }
 
+// 2. Create a method on type 'triangle' named 'area' that calculates the area of a triangle
+func (t triangle) area() float64 {
+	return 0.5 * t.base * t.height
+}
+
 func main() {
+
 }
