@@ -13,6 +13,10 @@ func (t triangle) area() float64 {
 	return 0.5 * t.base * t.height
 }
 
-func main() {
+// 3. Create a method on type 'triangle' named 'perimeter' that calculates and returns the perimeter of the triangle
+func (t triangle) perimeter() float64 {
+	return 2 * t.base + 2 * t.height
+}
 
+func main() {
 }
