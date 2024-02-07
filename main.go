@@ -18,16 +18,22 @@ func (t triangle) perimeter() float64 {
 	return 2 * t.base + 2 * t.height
 }
 
+// 6. Create a new type called 'circle' that has a single field of type float64 of name 'radius'
+type circle struct {
+	radius float64
+}
+// 7. Create a method on type 'circle' with the name 'area' that calculates and returns the area of a circle
+func (c circle) area() float64 {
+	return math.Pi * c.radius * c.radius
+}
+
 // 4. Inside the 'main' function create a variable of type 'triangle' and initialize it with the values for the two data fields
 func main() {
 	t := triangle{base: 3, height: 4}
 	// 5. Call the 'area' and 'perimeter' methods and print the results
 	fmt.Println(t.area())
 	fmt.Println(t.perimeter())
-	// 6. Create a new type called 'circle' that has a single field of type float64 of name 'radius'
-	type circle struct {
-		radius float64
-	}
+
 	
 
 }
