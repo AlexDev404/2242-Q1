@@ -1,0 +1,44 @@
+INSTRUCTIONS: Complete the following tasks - use available slides and Go documentation (examples)
+
+Note: 1. Go has a math package that has many useful math functions
+      2. For each question, do a git commit
+      3. After you have completed all tasks, push the results to github.
+      4. Record a video and send me the link to the video. The link should
+         be in a file that is in your GitHub repository.
+      5. Share you GitHub repository to me via email. (Subject: 2242-Q1 repo)
+
+1. Create a struct type named 'triangle' that has two fields named
+   base and height both of type float64.
+   
+2. Create a method on type 'triangle' named 'area' that calculates and 
+returns the area of a triangle.
+
+3. Create a method on type 'triangle' named 'perimeter' that calculates and 
+   returns the perimeter of a triangle.
+
+4. Inside the 'main' function create a variable of type 'triangle'
+
+5. Call the 'area' and 'perimeter' methods on the 'triangle' that you 
+   created.
+   
+6. Create a struct type named 'circle' that has one field named 'radius' of type
+float64.
+
+7. Create a method on type 'circle' named 'area' that calculates and
+   returns the area of a circle.
+   
+8. Create a method on type 'circle' named 'perimeter' that calculates and
+   returns the area of a circle.
+   
+9. Write a Go function named 'square' that accepts a parameter of type float64
+   that represents the sides of the square.  The 'square' function should return
+   the area and the perimeter of the square when called.
+
+10. Write a test for the 'square' function.
+
+EXTRA:
+
+11. Write a test for each of the methods that you created earlier.
+
+12. Implement a shapes interface with area and perimter as its signature methods.
+    Make triangle and circle structs part if the shapes interface. modify your code accordingly.
