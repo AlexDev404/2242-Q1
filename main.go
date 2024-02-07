@@ -24,4 +24,10 @@ func main() {
 	// 5. Call the 'area' and 'perimeter' methods and print the results
 	fmt.Println(t.area())
 	fmt.Println(t.perimeter())
+	// 6. Create a new type called 'circle' that has a single field of type float64 of name 'radius'
+	type circle struct {
+		radius float64
+	}
+	
+
 }
