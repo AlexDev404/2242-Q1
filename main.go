@@ -34,6 +34,11 @@ func (c circle) perimeter() float64 {
 	return 2 * math.Pi * c.radius
 }
 
+// 9. Write a Go function named 'square' that accepts a parameter of type float64 that represents the sides of the square.
+// The 'square' function should return the area and the perimeter of the square when called.
+func square(side float64) (float64, float64) {
+	return (side * side), (4 * side)
+}
 
 // 4. Inside the 'main' function create a variable of type 'triangle' and initialize it with the values for the two data fields
 func main() {
