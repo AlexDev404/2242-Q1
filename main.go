@@ -21,6 +21,7 @@ func (t triangle) perimeter() float64 {
 // 4. Inside the 'main' function create a variable of type 'triangle' and initialize it with the values for the two data fields
 func main() {
 	t := triangle{base: 3, height: 4}
+	// 5. Call the 'area' and 'perimeter' methods and print the results
 	fmt.Println(t.area())
 	fmt.Println(t.perimeter())
 }
